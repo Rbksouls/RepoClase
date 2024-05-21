@@ -1,11 +1,12 @@
 <template>
+    <NuxtPage></NuxtPage>
     <h1 class="text-3xl font-bold underline">
       Hello world!
     </h1>
-    <NuxtLink to="/contacto">Ir a la página de contacto</NuxtLink>
+    <NuxtLink to="/contacto">Contacto</NuxtLink>
     <br>
-    <NuxtLink to="/about">Ir a la página de about</NuxtLink>
+    <NuxtLink to="/about">Sobre mi</NuxtLink>
     <br>
-    <NuxtLink to="/productos">Ir a la Tienda</NuxtLink>
+    <NuxtLink to="/productos">Tienda</NuxtLink>
 </template>
 
