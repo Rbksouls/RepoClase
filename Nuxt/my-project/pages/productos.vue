@@ -1,0 +1,6 @@
+<template>
+    <div>
+        <h1>Esta es la pagina de productos</h1>
+    </div>
+    <NuxtLink to="/">Inicio</NuxtLink>
+</template>
