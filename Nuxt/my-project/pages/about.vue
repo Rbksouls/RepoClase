@@ -4,3 +4,9 @@
     </div>
     <NuxtLink to="/">Ir al Inicio</NuxtLink>
 </template>
+
+<script setup lang="ts">
+definePageMeta({
+  layout: 'otro'
+})
+</script>

@@ -1,4 +1,5 @@
 <template>
+   <slot/>
     <NuxtPage></NuxtPage>
     <h1 class="text-3xl font-bold underline">
       Hello world!
@@ -9,4 +10,9 @@
     <br>
     <NuxtLink to="/productos">Tienda</NuxtLink>
 </template>
+<script setup>
+ definePageMeta({
+  layout:"menu"
+ })
+</script>
 
